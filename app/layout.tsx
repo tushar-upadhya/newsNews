@@ -5,11 +5,11 @@ import "aos/dist/aos.css";
 
 import type { Metadata } from "next";
 import { EB_Garamond } from "next/font/google";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
 
 import "./globals.css";
 import "./variables.css";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 const ebGaramond = EB_Garamond({ subsets: ["latin"] });
 
