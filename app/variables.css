@@ -207,19 +207,15 @@
 .color-teal {
   color: var(--color-teal) !important;
 }
-
 .color-cyan {
   color: var(--color-cyan) !important;
 }
-
 .color-white {
   color: var(--color-white) !important;
 }
-
 .color-gray {
   color: var(--color-gray) !important;
 }
-
 .color-black {
   color: var(--color-black) !important;
 }
@@ -228,79 +224,60 @@
 .bg-default {
   background-color: var(--color-default) !important;
 }
-
 .bg-primary {
   background-color: var(--color-primary) !important;
 }
-
 .bg-primary-light {
   background-color: var(--color-primary-light) !important;
 }
-
 .bg-primary-dark {
   background-color: var(--color-primary-dark) !important;
 }
-
 .bg-secondary {
   background-color: var(--color-secondary) !important;
 }
-
 .bg-secondary-light {
   background-color: var(--color-secondary-light) !important;
 }
-
 .bg-secondary-dark {
   background-color: var(--color-secondary-dark) !important;
 }
-
 .bg-blue {
   background-color: var(--color-blue) !important;
 }
-
 .bg-indigo {
   background-color: var(--color-indigo) !important;
 }
-
 .bg-purple {
   background-color: var(--color-purple) !important;
 }
-
 .bg-pink {
   background-color: var(--color-pink) !important;
 }
-
 .bg-red {
   background-color: var(--color-red) !important;
 }
-
 .bg-orange {
   background-color: var(--color-orange) !important;
 }
-
 .bg-yellow {
   background-color: var(--color-yellow) !important;
 }
-
 .bg-green {
   background-color: var(--color-green) !important;
 }
-
 .bg-teal {
   background-color: var(--color-teal) !important;
 }
-
 .bg-cyan {
   background-color: var(--color-cyan) !important;
 }
-
 .bg-white {
   background-color: var(--color-white) !important;
 }
-
 .bg-gray {
   background-color: var(--color-gray) !important;
 }
-
 .bg-black {
   background-color: var(--color-black) !important;
 }

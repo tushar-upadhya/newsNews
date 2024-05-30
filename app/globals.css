@@ -97,7 +97,7 @@ section {
 
 .not-found {
   padding: 0;
-  background: url("./../public/assets/not-found-bj.jpg");
+  background: url("./../public/image/not-found-bj.jpg");
   background-position: center;
   background-size: cover;
 }

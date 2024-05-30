@@ -1,17 +1,18 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 import "aos/dist/aos.css";
 
-import type { Metadata } from "next";
-import { EB_Garamond } from "next/font/google";
-
 import "./globals.css";
 import "./variables.css";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
 
-const ebGaramond = EB_Garamond({ subsets: ["latin"] });
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={ebGaramond.className}>
+      <body className={inter.className}>
         <Header />
         {children}
         <Footer />
